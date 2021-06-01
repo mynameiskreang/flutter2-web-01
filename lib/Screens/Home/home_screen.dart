@@ -13,7 +13,7 @@ class WebApp extends StatelessWidget {
       width: size.width,
       decoration: BoxDecoration(
         image: const DecorationImage(
-            image: AssetImage("images/bg.jpg"), fit: BoxFit.cover),
+            image: AssetImage("assets/images/bg.jpg"), fit: BoxFit.cover),
       ),
       child: Column(
         children: <Widget>[

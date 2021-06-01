@@ -21,7 +21,7 @@ class CustomAppBar extends StatelessWidget {
           ]),
       child: Row(
         children: <Widget>[
-          Image.asset("images/logo.png",
+          Image.asset("assets/images/logo.png",
               height: 25, alignment: Alignment.topCenter),
           SizedBox(width: 5),
           Text("krypto".toUpperCase(),
